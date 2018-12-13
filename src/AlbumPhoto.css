@@ -1,0 +1,30 @@
+.Photo{
+    background-color: blue;
+    width: 22.5%;
+    margin: 0 20px 20px 0;
+    display: inline-block;
+}
+.Photo:nth-of-type(4n){
+    margin-right: 0px;
+}
+.Photo img{
+    width: 100%;
+}
+.Date{
+    background-color: #ff5937;
+    width: 48%;
+    margin: 0 20px 20px 0;
+    display: inline-block;
+}
+.Date img{
+    display: inline-block;
+    width: 47%;
+}
+.DateDiv{
+    background-color: #43ff30;
+}
+.InlineBlock{
+    display: inline-block;
+    width: 47%; 
+    background-color: #3fffd3;
+}

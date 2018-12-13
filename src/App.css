@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blueviolet;
+}
+.App-header {
+  background-color: white;
+  min-width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Line hr{
+  color: black;
+  width: 120px;
+}
+.Line {
+}
+.Img{
+  background-color: green;
+}
+.Img img{
+  width: 100%;
+}
+
+.Album{
+  background-color: white;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.Body{
+  width: 95%;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.LastDate{
+  background-color: white;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 160px;
+  height: 105px;
+  opacity: 0.8;
+}
+
+.MainPhoto{
+  position: relative;
+}
+
+.Pages{
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.PhotoPlus{
+  display: inline-block;
+  background-color: #ff3a65;
+}
